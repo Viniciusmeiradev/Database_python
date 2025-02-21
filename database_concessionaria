@@ -40,7 +40,7 @@ comando3 = '''CREATE TABLE veiculo(
 cursor.execute(comando3)
 
 #Inserir valores na tabela cliente
-comando4 = '''INSERT INTO pessoas (cpf, nome, nascimento, oculos)
+comando4 = '''INSERT INTO cliente (cpf, nome, nascimento, oculos)
             VALUES (968585754464, 'Carla','2000-05-12', 1)'''
 
 cursor.execute(comando4)
