@@ -41,7 +41,10 @@ cursor.execute(comando3)
 
 #Inserir valores na tabela cliente
 comando4 = '''INSERT INTO cliente (cpf, nome, nascimento, oculos)
-            VALUES (968585754464, 'Carla','2000-05-12', 1)'''
+            VALUES (968585754464, 'Carla','2000-05-12', 1),
+            (747532798631, 'Diego','2007-01-10', 1),
+            (243423413434, 'Estefani','2003-09-06',0),
+            (865335665434, 'Cleiton', '1999-06-24', 0);'''
 
 cursor.execute(comando4)
 
